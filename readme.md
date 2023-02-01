@@ -1,5 +1,8 @@
 # GCP Pipeline Instructions
 
+Prior to start - please collect your Twitter API keys from their Developer Portal below:
+https://developer.twitter.com/en/portal/dashboard
+
 ## Data Collection / Feature Engineering
 The first part of your pipeline should have a notebook pulling in relevant Southwest Twitter data through Twitter’s official API. On a low-cost budget, we recommend generating several API keys and rotating pulls between notebooks. This will only be a factor for twitter_ingestion_auth notebooks. Below are some notes on how to run the notebooks.
 
